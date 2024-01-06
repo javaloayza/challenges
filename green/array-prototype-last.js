@@ -6,7 +6,7 @@
 
 // You may assume the array is the output of JSON.parse.
 
-// Full practice javascript
+// Full practice javascript - 1.0
 
 /**
  * @return {null|boolean|number|string|Array|Object}
