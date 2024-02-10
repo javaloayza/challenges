@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @param {number} val
  * @return {number}
- Javascript
+ Javascript remove elements
  */
 class Solution {
 public:
