@@ -1,7 +1,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
- javascript 
+ javascript - remove duplicates sorted
  */
 var removeDuplicates = function (nums) {
     let p = 0;
