@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @param {number} val
  * @return {number}
- Javascript v2.0
+ Javascript 
  */
 class Solution {
 public:
