@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @param {number} val
  * @return {number}
+ Javascript 
  */
 nums = [];
 val = 0;
