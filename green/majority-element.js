@@ -1,17 +1,19 @@
 //test
 var majorityElement = function(nums) {
-  let count = 0
-  let candidate
-  for (let i = 0; i < nums.length; i++) {
-      if (count === 0) {
-          candidate = nums[i]
-          count = 1
-      } else if (candidate === nums[i]) {
-          count++
-      } else {
-          count--
-      }
-  }
+    const hash = {};
+    let res = 0;
+    let mayor = 0;
 
- return candidate
+    for ( let n of nums) {
+        hash[n] = 1 + (hash[n] || 0);
+        if (hash[n] > mayor ) {
+            res = n;
+            mayor = hash[n];
+        }
+    }
+    console.log(hash);
+    return res;    
 };
+
+console.log(majorityElement([2,2,1,1,1,2,2,3,3]));
+
